@@ -18,8 +18,8 @@ import (
 	"sort"
 	"testing"
 
-	"honnef.co/go/tools/go/ir"
-	"honnef.co/go/tools/go/ir/irutil"
+	"github.com/amarpal/go-tools/go/ir"
+	"github.com/amarpal/go-tools/go/ir/irutil"
 
 	"golang.org/x/tools/go/loader"
 )

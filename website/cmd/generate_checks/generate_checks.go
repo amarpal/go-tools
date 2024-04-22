@@ -9,11 +9,11 @@ import (
 	"sort"
 	"strings"
 
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/quickfix"
-	"honnef.co/go/tools/simple"
-	"honnef.co/go/tools/staticcheck"
-	"honnef.co/go/tools/stylecheck"
+	"github.com/amarpal/go-tools/analysis/lint"
+	"github.com/amarpal/go-tools/quickfix"
+	"github.com/amarpal/go-tools/simple"
+	"github.com/amarpal/go-tools/staticcheck"
+	"github.com/amarpal/go-tools/stylecheck"
 )
 
 type Output struct {

@@ -10,11 +10,11 @@ import (
 	"strings"
 	"testing"
 
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/config"
-	"honnef.co/go/tools/go/buildid"
-	"honnef.co/go/tools/lintcmd/cache"
-	"honnef.co/go/tools/lintcmd/runner"
+	"github.com/amarpal/go-tools/analysis/lint"
+	"github.com/amarpal/go-tools/config"
+	"github.com/amarpal/go-tools/go/buildid"
+	"github.com/amarpal/go-tools/lintcmd/cache"
+	"github.com/amarpal/go-tools/lintcmd/runner"
 
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/packages"

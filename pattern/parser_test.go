@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"honnef.co/go/tools/debug"
+	"github.com/amarpal/go-tools/debug"
 )
 
 func TestParse(t *testing.T) {

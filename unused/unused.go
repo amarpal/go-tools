@@ -10,12 +10,12 @@ import (
 	"reflect"
 	"strings"
 
-	"honnef.co/go/tools/analysis/facts/directives"
-	"honnef.co/go/tools/analysis/facts/generated"
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/analysis/report"
-	"honnef.co/go/tools/go/ast/astutil"
-	"honnef.co/go/tools/go/types/typeutil"
+	"github.com/amarpal/go-tools/analysis/facts/directives"
+	"github.com/amarpal/go-tools/analysis/facts/generated"
+	"github.com/amarpal/go-tools/analysis/lint"
+	"github.com/amarpal/go-tools/analysis/report"
+	"github.com/amarpal/go-tools/go/ast/astutil"
+	"github.com/amarpal/go-tools/go/types/typeutil"
 
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/types/objectpath"

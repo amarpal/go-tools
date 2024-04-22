@@ -4,12 +4,12 @@ import (
 	"go/constant"
 	"go/token"
 
-	"honnef.co/go/tools/analysis/callcheck"
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/go/ir"
-	"honnef.co/go/tools/go/ir/irutil"
-	"honnef.co/go/tools/internal/passes/buildir"
-	"honnef.co/go/tools/knowledge"
+	"github.com/amarpal/go-tools/analysis/callcheck"
+	"github.com/amarpal/go-tools/analysis/lint"
+	"github.com/amarpal/go-tools/go/ir"
+	"github.com/amarpal/go-tools/go/ir/irutil"
+	"github.com/amarpal/go-tools/internal/passes/buildir"
+	"github.com/amarpal/go-tools/knowledge"
 
 	"golang.org/x/tools/go/analysis"
 )

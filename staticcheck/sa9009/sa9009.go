@@ -6,8 +6,8 @@ import (
 
 	"golang.org/x/tools/go/analysis"
 
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/analysis/report"
+	"github.com/amarpal/go-tools/analysis/lint"
+	"github.com/amarpal/go-tools/analysis/report"
 )
 
 var SCAnalyzer = lint.InitializeAnalyzer(&lint.Analyzer{

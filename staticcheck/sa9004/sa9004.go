@@ -5,11 +5,11 @@ import (
 	"go/token"
 	"go/types"
 
-	"honnef.co/go/tools/analysis/code"
-	"honnef.co/go/tools/analysis/edit"
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/analysis/report"
-	"honnef.co/go/tools/go/ast/astutil"
+	"github.com/amarpal/go-tools/analysis/code"
+	"github.com/amarpal/go-tools/analysis/edit"
+	"github.com/amarpal/go-tools/analysis/lint"
+	"github.com/amarpal/go-tools/analysis/report"
+	"github.com/amarpal/go-tools/go/ast/astutil"
 
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/analysis/passes/inspect"

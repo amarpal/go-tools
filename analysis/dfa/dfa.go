@@ -10,8 +10,8 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/amarpal/go-tools/go/ir"
 	"golang.org/x/exp/constraints"
-	"honnef.co/go/tools/go/ir"
 )
 
 const debugging = false

@@ -15,8 +15,8 @@ import (
 	"strings"
 	"time"
 
-	"honnef.co/go/tools/config"
-	"honnef.co/go/tools/lintcmd/cache"
+	"github.com/amarpal/go-tools/config"
+	"github.com/amarpal/go-tools/lintcmd/cache"
 
 	"golang.org/x/tools/go/gcexportdata"
 	"golang.org/x/tools/go/packages"

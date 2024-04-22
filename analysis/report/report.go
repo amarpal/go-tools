@@ -11,9 +11,9 @@ import (
 	"strconv"
 	"strings"
 
-	"honnef.co/go/tools/analysis/code"
-	"honnef.co/go/tools/analysis/facts/generated"
-	"honnef.co/go/tools/go/ast/astutil"
+	"github.com/amarpal/go-tools/analysis/code"
+	"github.com/amarpal/go-tools/analysis/facts/generated"
+	"github.com/amarpal/go-tools/go/ast/astutil"
 
 	"golang.org/x/tools/go/analysis"
 )

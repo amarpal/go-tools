@@ -18,7 +18,7 @@ var tmpl = `
 package {{.lname}}
 
 import (
-	"honnef.co/go/tools/analysis/lint"
+	"github.com/amarpal/go-tools/analysis/lint"
 
 	"golang.org/x/tools/go/analysis"
 )

@@ -14,8 +14,8 @@ import (
 	"io"
 	"os"
 
-	"honnef.co/go/tools/go/ast/astutil"
-	"honnef.co/go/tools/go/types/typeutil"
+	"github.com/amarpal/go-tools/go/ast/astutil"
+	"github.com/amarpal/go-tools/go/types/typeutil"
 
 	"golang.org/x/exp/typeparams"
 )

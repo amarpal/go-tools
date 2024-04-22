@@ -12,13 +12,13 @@ import (
 	"path/filepath"
 	"strings"
 
-	"honnef.co/go/tools/analysis/facts/generated"
-	"honnef.co/go/tools/analysis/facts/purity"
-	"honnef.co/go/tools/analysis/facts/tokenfile"
-	"honnef.co/go/tools/go/ast/astutil"
-	"honnef.co/go/tools/go/types/typeutil"
-	"honnef.co/go/tools/knowledge"
-	"honnef.co/go/tools/pattern"
+	"github.com/amarpal/go-tools/analysis/facts/generated"
+	"github.com/amarpal/go-tools/analysis/facts/purity"
+	"github.com/amarpal/go-tools/analysis/facts/tokenfile"
+	"github.com/amarpal/go-tools/go/ast/astutil"
+	"github.com/amarpal/go-tools/go/types/typeutil"
+	"github.com/amarpal/go-tools/knowledge"
+	"github.com/amarpal/go-tools/pattern"
 
 	"golang.org/x/tools/go/analysis"
 )
