@@ -3,19 +3,19 @@
 package quickfix
 
 import (
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/quickfix/qf1001"
-	"honnef.co/go/tools/quickfix/qf1002"
-	"honnef.co/go/tools/quickfix/qf1003"
-	"honnef.co/go/tools/quickfix/qf1004"
-	"honnef.co/go/tools/quickfix/qf1005"
-	"honnef.co/go/tools/quickfix/qf1006"
-	"honnef.co/go/tools/quickfix/qf1007"
-	"honnef.co/go/tools/quickfix/qf1008"
-	"honnef.co/go/tools/quickfix/qf1009"
-	"honnef.co/go/tools/quickfix/qf1010"
-	"honnef.co/go/tools/quickfix/qf1011"
-	"honnef.co/go/tools/quickfix/qf1012"
+	"github.com/amarpal/go-tools/analysis/lint"
+	"github.com/amarpal/go-tools/quickfix/qf1001"
+	"github.com/amarpal/go-tools/quickfix/qf1002"
+	"github.com/amarpal/go-tools/quickfix/qf1003"
+	"github.com/amarpal/go-tools/quickfix/qf1004"
+	"github.com/amarpal/go-tools/quickfix/qf1005"
+	"github.com/amarpal/go-tools/quickfix/qf1006"
+	"github.com/amarpal/go-tools/quickfix/qf1007"
+	"github.com/amarpal/go-tools/quickfix/qf1008"
+	"github.com/amarpal/go-tools/quickfix/qf1009"
+	"github.com/amarpal/go-tools/quickfix/qf1010"
+	"github.com/amarpal/go-tools/quickfix/qf1011"
+	"github.com/amarpal/go-tools/quickfix/qf1012"
 )
 
 var Analyzers = []*lint.Analyzer{

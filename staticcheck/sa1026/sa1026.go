@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"go/types"
 
-	"honnef.co/go/tools/analysis/callcheck"
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/internal/passes/buildir"
-	"honnef.co/go/tools/staticcheck/fakejson"
-	"honnef.co/go/tools/staticcheck/fakexml"
+	"github.com/amarpal/go-tools/analysis/callcheck"
+	"github.com/amarpal/go-tools/analysis/lint"
+	"github.com/amarpal/go-tools/internal/passes/buildir"
+	"github.com/amarpal/go-tools/staticcheck/fakejson"
+	"github.com/amarpal/go-tools/staticcheck/fakexml"
 
 	"golang.org/x/tools/go/analysis"
 )

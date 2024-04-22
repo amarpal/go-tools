@@ -4,7 +4,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"honnef.co/go/tools/go/loader"
+	"github.com/amarpal/go-tools/go/loader"
 
 	"golang.org/x/tools/go/analysis"
 )

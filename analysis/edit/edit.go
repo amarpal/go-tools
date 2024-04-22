@@ -7,8 +7,8 @@ import (
 	"go/format"
 	"go/token"
 
+	"github.com/amarpal/go-tools/pattern"
 	"golang.org/x/tools/go/analysis"
-	"honnef.co/go/tools/pattern"
 )
 
 // Ranger describes values that have a start and end position.

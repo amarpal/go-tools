@@ -21,10 +21,10 @@ import (
 	"sync"
 	"time"
 
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/config"
-	"honnef.co/go/tools/go/loader"
-	"honnef.co/go/tools/lintcmd/version"
+	"github.com/amarpal/go-tools/analysis/lint"
+	"github.com/amarpal/go-tools/config"
+	"github.com/amarpal/go-tools/go/loader"
+	"github.com/amarpal/go-tools/lintcmd/version"
 
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/buildutil"

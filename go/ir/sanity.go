@@ -14,7 +14,7 @@ import (
 	"os"
 	"strings"
 
-	"honnef.co/go/tools/go/types/typeutil"
+	"github.com/amarpal/go-tools/go/types/typeutil"
 )
 
 type sanity struct {

@@ -5,14 +5,14 @@ import (
 	"go/constant"
 	"go/types"
 
-	"honnef.co/go/tools/analysis/callcheck"
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/go/ir"
-	"honnef.co/go/tools/go/ir/irutil"
-	"honnef.co/go/tools/go/types/typeutil"
-	"honnef.co/go/tools/internal/passes/buildir"
-	"honnef.co/go/tools/knowledge"
-	"honnef.co/go/tools/printf"
+	"github.com/amarpal/go-tools/analysis/callcheck"
+	"github.com/amarpal/go-tools/analysis/lint"
+	"github.com/amarpal/go-tools/go/ir"
+	"github.com/amarpal/go-tools/go/ir/irutil"
+	"github.com/amarpal/go-tools/go/types/typeutil"
+	"github.com/amarpal/go-tools/internal/passes/buildir"
+	"github.com/amarpal/go-tools/knowledge"
+	"github.com/amarpal/go-tools/printf"
 
 	"golang.org/x/tools/go/analysis"
 )

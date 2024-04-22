@@ -6,10 +6,10 @@ import (
 	"log"
 	"os"
 
+	"github.com/amarpal/go-tools/go/loader"
+	"github.com/amarpal/go-tools/lintcmd/cache"
+	"github.com/amarpal/go-tools/unused"
 	"golang.org/x/tools/go/packages"
-	"honnef.co/go/tools/go/loader"
-	"honnef.co/go/tools/lintcmd/cache"
-	"honnef.co/go/tools/unused"
 )
 
 // OPT(dh): we don't need full graph merging if we're not flagging exported objects. In that case, we can reuse the old

@@ -82,8 +82,8 @@ import (
 	"regexp"
 	"strings"
 
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/sarif"
+	"github.com/amarpal/go-tools/analysis/lint"
+	"github.com/amarpal/go-tools/sarif"
 )
 
 type sarifFormatter struct {

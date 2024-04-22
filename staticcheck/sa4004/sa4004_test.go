@@ -5,7 +5,7 @@ package sa4004
 import (
 	"testing"
 
-	"honnef.co/go/tools/analysis/lint/testutil"
+	"github.com/amarpal/go-tools/analysis/lint/testutil"
 )
 
 func TestTestdata(t *testing.T) {

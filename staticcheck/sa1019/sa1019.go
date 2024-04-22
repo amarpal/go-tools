@@ -6,12 +6,12 @@ import (
 	"go/types"
 	"strings"
 
-	"honnef.co/go/tools/analysis/code"
-	"honnef.co/go/tools/analysis/facts/deprecated"
-	"honnef.co/go/tools/analysis/facts/generated"
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/analysis/report"
-	"honnef.co/go/tools/knowledge"
+	"github.com/amarpal/go-tools/analysis/code"
+	"github.com/amarpal/go-tools/analysis/facts/deprecated"
+	"github.com/amarpal/go-tools/analysis/facts/generated"
+	"github.com/amarpal/go-tools/analysis/lint"
+	"github.com/amarpal/go-tools/analysis/report"
+	"github.com/amarpal/go-tools/knowledge"
 
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/analysis/passes/inspect"

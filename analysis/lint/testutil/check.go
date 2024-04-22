@@ -18,8 +18,8 @@ import (
 	"strings"
 	"testing"
 
-	"honnef.co/go/tools/internal/diff/myers"
-	"honnef.co/go/tools/lintcmd/runner"
+	"github.com/amarpal/go-tools/internal/diff/myers"
+	"github.com/amarpal/go-tools/lintcmd/runner"
 
 	"golang.org/x/tools/go/expect"
 	"golang.org/x/tools/txtar"

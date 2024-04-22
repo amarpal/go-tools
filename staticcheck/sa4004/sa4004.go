@@ -5,10 +5,10 @@ import (
 	"go/token"
 	"go/types"
 
-	"honnef.co/go/tools/analysis/code"
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/analysis/report"
-	"honnef.co/go/tools/go/types/typeutil"
+	"github.com/amarpal/go-tools/analysis/code"
+	"github.com/amarpal/go-tools/analysis/lint"
+	"github.com/amarpal/go-tools/analysis/report"
+	"github.com/amarpal/go-tools/go/types/typeutil"
 
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/analysis/passes/inspect"

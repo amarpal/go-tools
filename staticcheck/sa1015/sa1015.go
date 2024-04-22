@@ -1,12 +1,12 @@
 package sa1015
 
 import (
-	"honnef.co/go/tools/analysis/code"
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/analysis/report"
-	"honnef.co/go/tools/go/ir"
-	"honnef.co/go/tools/go/ir/irutil"
-	"honnef.co/go/tools/internal/passes/buildir"
+	"github.com/amarpal/go-tools/analysis/code"
+	"github.com/amarpal/go-tools/analysis/lint"
+	"github.com/amarpal/go-tools/analysis/report"
+	"github.com/amarpal/go-tools/go/ir"
+	"github.com/amarpal/go-tools/go/ir/irutil"
+	"github.com/amarpal/go-tools/internal/passes/buildir"
 
 	"golang.org/x/tools/go/analysis"
 )

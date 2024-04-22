@@ -1,9 +1,9 @@
 package s1029
 
 import (
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/internal/passes/buildir"
-	"honnef.co/go/tools/internal/sharedcheck"
+	"github.com/amarpal/go-tools/analysis/lint"
+	"github.com/amarpal/go-tools/internal/passes/buildir"
+	"github.com/amarpal/go-tools/internal/sharedcheck"
 
 	"golang.org/x/tools/go/analysis"
 )

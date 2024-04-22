@@ -23,7 +23,7 @@ For a description of all available flags, see `keyify -help`.
 For Emacs integration, add the following to your `.emacs` file:
 
 ```
-(add-to-list 'load-path "/your/gopath/src/honnef.co/go/tools/cmd/keyify)
+(add-to-list 'load-path "/your/gopath/src/github.com/amarpal/go-tools/cmd/keyify)
 (eval-after-load 'go-mode
   (lambda ()
     (require 'go-keyify)))

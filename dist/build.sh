@@ -2,7 +2,7 @@
 
 
 build() {
-    ROOT="$GOPATH/src/honnef.co/go/tools"
+    ROOT="$GOPATH/src/github.com/amarpal/go-tools"
 
     os="$1"
     arch="$2"
@@ -35,7 +35,7 @@ build() {
 
     mkdir "$d/staticcheck"
     cp "$ROOT/LICENSE" "$ROOT/LICENSE-THIRD-PARTY" "$d/staticcheck"
-    CGO_ENABLED=0 GOOS=$os GOARCH=$arch GOARM=$arm GO111MODULE=on go build -trimpath -o "$d/staticcheck/$exe" honnef.co/go/tools/cmd/staticcheck
+    CGO_ENABLED=0 GOOS=$os GOARCH=$arch GOARM=$arm GO111MODULE=on go build -trimpath -o "$d/staticcheck/$exe" github.com/amarpal/go-tools/cmd/staticcheck
     (
         cd "$d"
         tar -czf "$target.tar.gz" staticcheck
@@ -59,7 +59,7 @@ trap "{ rm -rf \"$wrk\"; }" EXIT
 cd "$wrk"
 
 go mod init foo
-GO111MODULE=on go get -d honnef.co/go/tools/cmd/staticcheck@"$rev"
+GO111MODULE=on go get -d github.com/amarpal/go-tools/cmd/staticcheck@"$rev"
 
 
 SYSTEMS=(windows linux freebsd)

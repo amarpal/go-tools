@@ -1,12 +1,12 @@
-module honnef.co/go/tools/website
+module github.com/amarpal/go-tools/website
 
 go 1.17
 
-replace honnef.co/go/tools => ../
+replace github.com/amarpal/go-tools => ../
 
 require (
 	github.com/BurntSushi/toml v1.3.2
-	honnef.co/go/tools v0.0.0-00010101000000-000000000000
+	github.com/amarpal/go-tools v0.0.0-00010101000000-000000000000
 )
 
 require (

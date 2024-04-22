@@ -5,13 +5,13 @@ import (
 	"log"
 	"os"
 
-	"honnef.co/go/tools/lintcmd"
-	"honnef.co/go/tools/lintcmd/version"
-	"honnef.co/go/tools/quickfix"
-	"honnef.co/go/tools/simple"
-	"honnef.co/go/tools/staticcheck"
-	"honnef.co/go/tools/stylecheck"
-	"honnef.co/go/tools/unused"
+	"github.com/amarpal/go-tools/lintcmd"
+	"github.com/amarpal/go-tools/lintcmd/version"
+	"github.com/amarpal/go-tools/quickfix"
+	"github.com/amarpal/go-tools/simple"
+	"github.com/amarpal/go-tools/staticcheck"
+	"github.com/amarpal/go-tools/stylecheck"
+	"github.com/amarpal/go-tools/unused"
 )
 
 func main() {
