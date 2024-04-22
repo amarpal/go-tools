@@ -38,6 +38,7 @@ import (
 	"github.com/amarpal/go-tools/staticcheck/sa1100"
 	"github.com/amarpal/go-tools/staticcheck/sa1101"
 	"github.com/amarpal/go-tools/staticcheck/sa1102"
+	"github.com/amarpal/go-tools/staticcheck/sa1103"
 	"github.com/amarpal/go-tools/staticcheck/sa2000"
 	"github.com/amarpal/go-tools/staticcheck/sa2001"
 	"github.com/amarpal/go-tools/staticcheck/sa2002"
@@ -139,6 +140,7 @@ var Analyzers = []*lint.Analyzer{
 	sa1100.SCAnalyzer,
 	sa1101.SCAnalyzer,
 	sa1102.SCAnalyzer,
+	sa1103.SCAnalyzer,
 	sa2000.SCAnalyzer,
 	sa2001.SCAnalyzer,
 	sa2002.SCAnalyzer,
