@@ -15,7 +15,7 @@ var SCAnalyzer = lint.InitializeAnalyzer(&lint.Analyzer{
 		Run:      run,
 		Requires: []*analysis.Analyzer{},
 	},
-	Doc: &lint.Documentation{
+	Doc: &lint.RawDocumentation{
 		Title:    "os.Exit should not be called in package not named `main`",
 		Text:     `os.Exit is unexpected in packages not named 'main'`,
 		Since:    "Unreleased",
